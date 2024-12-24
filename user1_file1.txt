@@ -1,8 +1,9 @@
 line 1
-line 3
-line 5
-line10
-line20
 
 
-Hello World
+
+
+
+Merry Christmas !!!
+
+file was updated by user2
