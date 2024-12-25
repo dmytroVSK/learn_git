@@ -1,7 +1,0 @@
-line 1
-
-new info added - super secret
-
-Merry Christmas !!!
-
-file was updated by user2 - develop
