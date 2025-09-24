@@ -28,6 +28,8 @@
     - git checkout -- _FileName_  (_To discard changes in the working directory_)
 7. Merge
     - git merge _BranchNameMergedInToCurrent_
+    - git status  (_Show files which are in conflict_)
+    - git merge --abort  (_Decline merge if smth went wrong_)
 8. Log
     - git log
     - git log --oneline --graph --decorate
