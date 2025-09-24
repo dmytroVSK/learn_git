@@ -23,13 +23,17 @@
     - git checkout -b _BranchName_  (_Create and switch to branch_)
     - git switch -c _BranchName_  (_Create and switch to branch_)
     - git branch -d _BranchName_  (_Delete branch_)
-6. Restore
+6. Restore/Reset
     - git restore _FileName_  (_To discard changes in the working directory_)
     - git checkout -- _FileName_  (_To discard changes in the working directory_)
+    - git reset --soft HEAD~1  (_Delete commit and leave stagging_)
+    - git reset --mixed HEAD~1  (_Delete commit and stagging, leave working directory_)
+    - git reset --hard HEAD~1  (_Delete all and back to previous commit state_)
 7. Merge
     - git merge _BranchNameMergedInToCurrent_
     - git status  (_Show files which are in conflict_)
     - git merge --abort  (_Decline merge if smth went wrong_)
+    
 8. Log
     - git log
     - git log --oneline --graph --decorate
