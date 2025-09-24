@@ -6,6 +6,7 @@
     - git config --global alias.co checkout
     - git config --list  (_Show config_)
     - git config --global alias.ls "log --oneline --graph --decorate"
+    
 2. Create repo
     - git init
   
@@ -13,8 +14,10 @@
     - git add .
     - git add _FileName_
     - git reset HEAD _FileName_  (_Delete file from index_)
+    
 4. Commit
     - git commit -m "desc of changes"  (_Make commit with desc_)
+    
 5. Branch
     - git branch  (_Show branches_)
     - git branch -m _BranchName_ (_Change name of current branch_)
@@ -23,13 +26,18 @@
     - git checkout -b _BranchName_  (_Create and switch to branch_)
     - git switch -c _BranchName_  (_Create and switch to branch_)
     - git branch -d _BranchName_  (_Delete branch_)
-6. Restore/Reset
+    
+6. Restore/Reset/Revert
     - git restore _FileName_  (_To discard changes in the working directory_)
     - git checkout -- _FileName_  (_To discard changes in the working directory_)
     - git reset --soft HEAD~1  (_Delete commit and leave stagging_)
     - git reset --mixed HEAD~1  (_Delete commit and stagging, leave working directory_)
     - git reset --hard HEAD~1  (_Delete all and back to previous commit state_)
-7. Merge
+    - git revert _commit-hash_
+    - git revert commit head  (_Revert last commit_)
+    - git revert HEAD~2..HEAD  (_Revert two last commits_)
+    
+7. Merge/Rebase
     - git merge _BranchNameMergedInToCurrent_
     - git status  (_Show files which are in conflict_)
     - git merge --abort  (_Decline merge if smth went wrong_)
@@ -40,6 +48,7 @@
   
 9. Diff
     - git diff
+    
 10. Remote
 
 ### Extra
