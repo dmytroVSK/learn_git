@@ -21,6 +21,8 @@
     - git branch _BranchName_  (_Create branch_)
     - git checkout/switch _BranchName_  (_Switch to specific branch_)
     - git checkout -b _BranchName_  (_Create and switch to branch_)
+    - git switch -c _BranchName_  (_Create and switch to branch_)
+    - git branch -d _BranchName_  (_Delete branch_)
 6. Restore
     - git restore _FileName_  (_To discard changes in the working directory_)
     - git checkout -- _FileName_  (_To discard changes in the working directory_)
