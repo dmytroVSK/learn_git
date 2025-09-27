@@ -59,6 +59,9 @@
 4. git cat-file -p hash >>> show parents of commit
 5. git rev-parse --short HEAD^2 >>> switch to another parent and get current commit aka HEAD
 6. git rev-parse --short HEAD^2~ (HEAD^2^) >>> switch to another parent and get commit of 1st parent of its
+7. git config
+    - git config --unset user.***
+    - git config --remove-section user 
 
 ### Python
 
